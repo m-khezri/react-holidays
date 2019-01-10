@@ -1,5 +1,5 @@
 import React from 'react';
-import './EditHolyday.scss';
+import './EditHoliday.scss';
 
 class EditHolyday extends React.Component {
 

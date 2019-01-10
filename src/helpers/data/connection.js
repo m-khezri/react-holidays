@@ -3,7 +3,7 @@ import 'firebase/auth';
 import apiKeys from '../apiKeys';
 
 const firebaseApp = () => {
-  if (!firebase.auth.apps.length) {
+  if (!firebase.apps.length) {
     firebase.initializeApp(apiKeys.firebaseConfig);
   }
 };
