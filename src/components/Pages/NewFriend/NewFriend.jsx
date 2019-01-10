@@ -1,7 +1,7 @@
 import React from 'react';
-import './NewFriends.scss';
+import './NewFriend.scss';
 
-class NewFriends extends React.Component {
+class NewFriend extends React.Component {
 
   render() {
     return (
@@ -12,6 +12,6 @@ class NewFriends extends React.Component {
   }
 }
 
-export default NewFriends;
+export default NewFriend;
 
 
